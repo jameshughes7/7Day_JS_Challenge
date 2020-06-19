@@ -1,0 +1,24 @@
+{
+  "name": "7_Day_JS_Challenge",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha **/test/*.js --reporter spec"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jameshughes7/7Day_JS_Challenge.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jameshughes7/7Day_JS_Challenge/issues"
+  },
+  "homepage": "https://github.com/jameshughes7/7Day_JS_Challenge#readme",
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "mocha": "^8.0.1"
+  }
+}
