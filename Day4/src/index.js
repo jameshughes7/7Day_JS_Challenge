@@ -12,20 +12,17 @@ const sumAllPrimes = (number) => {
 
     const primesArray = [];
     const numberArray = [];
-    for (let i = 2; numberArray.length < number - 1; i++) {
+    for (let i = 2; i <= number; i++) {
         numberArray.push(i);
     }
-    console.log(`Number Array: ${numberArray}`);
     for (num of numberArray) {
         if (isNumPrime(num)) {
             primesArray.push(num);
         }
     }
-    console.log(`Primes array: ${primesArray}`);
     const sum = primesArray.reduce(function(prev,current) {
         return prev + current;
     }, 0);
-    console.log(sum);
 
     return sum;
 }
